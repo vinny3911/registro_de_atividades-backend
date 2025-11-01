@@ -60,10 +60,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Instalação
 
-## Banco de Dados
+```bash
+* composer install
+* php artisan migrate --seed
 
-1. Crie o banco:
+## Inicialização
+* php artisan serve
 
-* MySQL
-"CREATE DATABASE testewispot CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
